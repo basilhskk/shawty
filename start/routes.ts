@@ -20,6 +20,20 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
-Route.get('/', async ({ view }) => {
-  return view.render('welcome')
-})
+/* Home */
+
+Route.get('/',"DashboardController.show")
+
+
+
+/* Auth Routes */
+
+
+/* End of Auth Routes */
+
+
+
+/* User Routes */
+
+
+/* End of User Routes */ 
